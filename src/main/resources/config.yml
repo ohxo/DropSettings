@@ -1,0 +1,16 @@
+gui:
+  title: '&8Impostazioni Drop'
+  size: 27
+
+items:
+  arrow:
+    slot: 10
+    material: ARROW
+    display-name: '&dFrecce'
+    lore:
+      - '&f'
+      - '&7Clicca per disattivare'
+      - '&7la raccolta di questo drop.'
+      - ''
+      - '&7Stato: %status%'
+    enabled: true

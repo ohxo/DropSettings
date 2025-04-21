@@ -1,0 +1,23 @@
+name: DropSettings
+version: '${project.version}'
+main: me.aezily.dropsettings.DropSettings
+load: STARTUP
+commands:
+  dropsettings:
+    description: apre gui drops
+    usage: /<command> [reload]
+    permission: dropsettings.open
+    subcommands:
+      reload:
+        description: reload config
+        permission: dropsettings.reload
+        usage: /<command> reload
+
+permissions:
+  dropsettings.open:
+    description: permesso per aprire
+    default: true
+
+  dropsettings.reload:
+    description: permesso per reload
+    default: op
